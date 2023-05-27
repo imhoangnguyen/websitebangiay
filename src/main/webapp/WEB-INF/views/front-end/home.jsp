@@ -14,9 +14,7 @@
 	<div class="wrapper">
 		<!-- message -->
 		<!-- /message -->
-		<!-- title -->
-
-		<!-- /title -->
+		
 		<!-- slider -->
 		<div class="slider">
 			<jsp:include page="/WEB-INF/views/front-end/common/header.jsp"></jsp:include>

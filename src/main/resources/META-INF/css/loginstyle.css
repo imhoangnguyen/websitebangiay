@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+body {
+	background-image: url('../images/logo/login-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 110%;
+}
+
+.wrapper {
+	width: 400px;
+	height: 500px;
+	margin: 70px auto;
+	opacity: 0;
+	animation: moveToTop 1.5s forwards;
+}
+
+.leftLogin {
+	position: relative;
+	color: white;
+	float: left;
+	width: 400px;
+	height: 100%;
+	text-align: center;
+	background-color: rgba(37, 29, 27, 0.4);
+	box-shadow: 2px 2px #292929;
+	font-size: 12px;
+}
+
+.leftLogin h1 {
+	margin-top: 20%;
+	color: #eeeeee;
+}
+
+form>input {
+	margin-top: 40px;
+	width: 75%;
+	border: 1px solid grey;
+	height: 40px;
+	outline: none;
+	border-radius: 20px 20px;
+	font-size: 13px;
+	text-align: center;
+	background-color: rgba(37, 29, 27, 0.2);
+	color: white;
+	border: 1px solid #B8ABA6;
+}
+
+form>input::placeholder {
+	color: #dddddd;
+}
+
+form>input:-ms-input-placeholder {
+	color: #dddddd;
+}
+
+form>input::-ms-input-placeholder {
+	color: #dddddd;
+}
+
+form>input:focus {
+	transition: 0.7s;
+	width: 85%;
+	border-color: white;
+	border-width: 2px;
+}
+
+form>input:nth-child(2) {
+	margin-top: 10px;
+}
+
+#btn-send {
+	width: 50%;
+	margin-top: 30px;
+	background-color: #292929;
+}
+
+#btn-send:hover {
+	transition: 0.5s;
+	background-color: red;
+}
+
+#btn-send {
+	color: #dddddd;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+footer a {
+	color: #dddddd;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+@keyframes moveToTop { 
+	0%{
+	margin-top: 70px;
+	opacity: 0;
+}
+100%{opacity:1;
+margin-top:50px;}
+}

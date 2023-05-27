@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.frmaccount {
+	width: 500px;
+	line-height: 60px;
+	margin: auto;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.frmaccount>h1 {
+	margin-bottom: 20px;
+}
+
+.frmaccount>.text {
+	width: 400px;
+	height: 50px;
+	outline: none;
+	border: 1px solid grey;
+	padding-left: 10px;
+}
+
+.frmaccount>#btn-send {
+	width: 150px;
+	line-height: 50px;
+	background-color: #292929;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	border: 0;
+	out-line: none;
+}
+
+.frmaccount>#btn-send:hover {
+	background-color: red;
+	transition: 0.5s;
+}
+
+.header {
+	background-color: #eeeeee;
+	color: black;
+	position: static !important;
+	margin-top:0px;
+}
+
+
+.frmaccount>span {
+	margin-top: -10px;
+}
+
+.back {
+	float: left;
+	font-size: 20px;
+	color: black;
+}
+
+.back:hover {
+	font-size: 25px;
+}
+
+.slider {
+	height: auto;
+}
+
+.footer {
+	margin-top: 60px !important;
+}
+
+.message {
+	display: none;
+}

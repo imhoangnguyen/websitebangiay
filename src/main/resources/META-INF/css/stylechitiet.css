@@ -1,0 +1,305 @@
+.header {
+	background-color: #eeeeee;
+	color: black;
+	position: absolute;
+	margin-top:-20px;
+}
+
+.filter{
+	margin-top:200px;
+}
+
+.title {
+	display: none;
+}
+
+.header:hover{
+	background-color:#eeeeee !important;
+}
+
+.header-dam:hover {
+	background-color: rgba(240, 240, 240, 1) !important;
+	transition: 0.6s;
+}
+
+.color-hover {
+	color: black !important;
+}
+
+.small-circle-cart {
+	background-color: #292929;
+	color: white;
+}
+
+.sub-menu {
+	z-index: 1;
+}
+
+.search>form>input::placeholder {
+	color: #292929;
+}
+
+.left-info {
+	padding: 10px 7% !important;
+	margin-top:200px;
+}
+
+.left-info ul {
+	padding: 0;
+	margin: auto;
+	margin-left: 20px;
+	list-style: none;
+}
+
+.left-info ul:first-child {
+	margin-left: 0;
+}
+
+.left-info ul li {
+	display: inline;
+	margin-left: 5%;
+}
+
+.prd {
+	margin: 0;
+	padding: 3px 10px;
+	width: 350px;
+	height: 300px;
+	overflow: hidden;
+	display:inline-block;
+}
+
+.prd:hover:before {
+	width: 0;
+}
+
+.prd:hover:after {
+	width: 0;
+}
+
+.prd img:hover {
+	transform: scale(1.5);
+	transition: 1s;
+}
+
+.prd img {
+	height: 95%;
+}
+
+.right-info {
+	padding: 2.7% 1% !important;
+	padding-right: 4% !important;
+	margin-top:200px;
+}
+
+.right-info h3 {
+	display: inline;
+}
+
+.code-prd {
+	font-size: 12px;
+	color: #a3a5a7;
+	padding: 5px 0;
+}
+
+.right-info h5 {
+	padding: 10px 0;
+	color: red;
+	border-top: 1px dotted #dddddd;
+	border-bottom: 1px dotted #dddddd;
+}
+
+.pagination a {
+	border: 0;
+	color: black;
+	margin-left: 20px;
+}
+
+.pagination li:first-child {
+	margin-left: -10px;
+}
+
+a:hover {
+	text-decoration: none !important;
+	color: black !important;
+}
+
+.pagination a:hover {
+	color: yellow !important;
+}
+
+.pagination {
+	line-height: 40px;
+	padding-top: 10px;
+	padding-bottom: 18px;
+	border-bottom: 1px dotted #dddddd;
+}
+
+.s1 {
+	font-size: 12px;
+}
+
+.s2 {
+	font-size: 15px;
+}
+
+.s3 {
+	font-size: 20px;
+}
+
+.s4 {
+	font-size: 25px;
+}
+
+.s5 {
+	font-size: 30px;
+}
+.box img{
+		height: 500px;
+			width: 100%;
+		}
+.box{
+	position: relative;
+	height: 500px;
+	width: 100%;
+}
+.sub ul{
+	padding: 0 ;
+	margin: 0;
+	list-style: none;
+}
+.sub ul li{
+	display: inline;
+	margin-left: 8px;
+	margin-right: 12px;
+}
+.sub ul li img{
+	width: 60px;
+	height: 60px;
+	border:1px solid white;
+}
+.sub{
+	margin-top: 10px;
+	text-align: center;
+}
+.box{
+	text-align: center;
+}
+.border-sub{
+	border:1px solid red !important;
+}
+.amount {
+	display: flex;
+	border-bottom: 1px dotted #dddddd;
+	padding-bottom: 15px;
+}
+
+.amount button {
+	background-color: #eeeeee;
+	width: 40px;
+	height: 40px;
+	font-weight: bold;
+}
+
+.current-amount {
+	width: 60px;
+	border: 1px solid #eeeeee;
+	text-align: center;
+	line-height: 38px;
+}
+
+.ct-add-btn a {
+	display: block;
+	font-weight: bold;
+}
+
+.ct-add-btn {
+	color:white;
+	margin-top: 20px;
+	text-align: center;
+}
+.tab {
+	margin-top: 14px;
+}
+
+.tab a {
+	font-weight: bold !important;
+	color: black;
+	border-bottom: 2px solid black !important;
+	border-right-width: 0 !important;
+	border-left-width: 0 !important;
+	font-size:14px;
+}
+
+.nav-item>.active {
+	background-color: black !important;
+	color: white !important;
+}
+
+.splq {
+	margin-top: 40px;
+}
+
+.splq h2 {
+	border-top: 1px solid grey;
+	text-align: center;
+	width: 70%;
+	padding: 30px 0;
+	margin: auto;
+}
+
+.splq img {
+	height: 95%;
+}
+
+.splq .prd:hover img{
+	transform: scale(1) !important;
+}
+
+.splq .prd {
+	margin-left: 20px;
+}
+
+.splq .prd1 {
+	margin-left: 10px;
+}
+.splq .prd1 img{
+	height:70%;
+}
+#size{
+	margin:10px 0;
+}
+.selected{
+	background-color:black !important;
+	color:white  !important; 
+}
+@media all and (max-width: 1200px) {
+	.right-info {
+		padding: 10px !important;
+		margin: auto;
+		text-align: center;
+	}
+	.left-info {
+		padding: 10px !important;
+		margin: auto;
+	}
+	.amount {
+		width: 150px;
+		margin: auto;
+	}
+	.pagination {
+		width: 200px;
+		margin: auto;
+	}
+	.nav-tabs {
+		width: 400px;
+		margin: auto;
+	}
+	.prd {
+		margin: 0 !important;
+	}
+	.ct-add-btn {
+		width: 70%;
+		margin: auto;
+	}
+}

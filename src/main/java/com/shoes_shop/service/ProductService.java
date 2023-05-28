@@ -58,7 +58,7 @@ public class ProductService {
 				List<ProductImages> imageList = oldProduct.getProductImages();
 				//delete images of this product on host
 				for(ProductImages prdImage : imageList) {
-					new File("C:\\Users\\Duc\\Desktop\\shoe_shop_springboot_application\\com.shoes_shop.duc\\uploads\\"+prdImage.getPath()).delete();
+					new File("D:\\cong_cu_phat_trien_phan_mem\\Website-ban-giay-dep-java-mysql\\shoe_shop_springboot_application\\com.shoes_shop.duc\\uploads\\"+prdImage.getPath()).delete();
 				}
 				//delete images of this product on database
 				product.removeProductImages();
@@ -88,7 +88,7 @@ public class ProductService {
 		if(!isEmptyUploadFile(productImages)) { //nếu không rỗng thì lưu file đó
 			boolean checkAvatar = false;
 			for(MultipartFile productImg : productImages) {
-				productImg.transferTo(new File("C:\\Users\\Duc\\Desktop\\shoe_shop_springboot_application\\com.shoes_shop.duc\\uploads\\" + productImg.getOriginalFilename()));
+				productImg.transferTo(new File("D:\\cong_cu_phat_trien_phan_mem\\Website-ban-giay-dep-java-mysql\\shoe_shop_springboot_application\\com.shoes_shop.duc\\uploads\\" + productImg.getOriginalFilename()));
 				ProductImages _productImg = new ProductImages();
 				_productImg.setPath(productImg.getOriginalFilename());
 				_productImg.setTitle(productImg.getOriginalFilename());

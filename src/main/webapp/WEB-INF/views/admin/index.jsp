@@ -23,7 +23,7 @@
 							<a class="right__card"
 								href="${pageContext.request.contextPath}/admin/product">
 								<div class="right__cardTitle">Sản Phẩm</div>
-								<!-- <div class="right__cardNumber">${products.size()}</div> --> 
+								
 								<div class="right__cardDesc">
 									Xem Chi Tiết <img
 										src="${pageContext.request.contextPath}/assets/arrow-right.svg"
@@ -32,7 +32,7 @@
 							</a> <a class="right__card"
 								href="${pageContext.request.contextPath}/admin/viewcustomers">
 								<div class="right__cardTitle">Khách Hàng</div>
-								<!-- div class="right__cardNumber">${customers.size()}</div-->
+								
 								<div class="right__cardDesc">
 									Xem Chi Tiết <img
 										src="${pageContext.request.contextPath}/assets/arrow-right.svg"
@@ -41,7 +41,7 @@
 							</a> <a class="right__card"
 								href="${pageContext.request.contextPath}/admin/viewcategory">
 								<div class="right__cardTitle">Danh Mục</div>
-								<!-- <div class="right__cardNumber">${categories.size()}</div> -->
+								
 								<div class="right__cardDesc">
 									Xem Chi Tiết <img
 										src="${pageContext.request.contextPath}/assets/arrow-right.svg"
@@ -50,7 +50,7 @@
 							</a> <a class="right__card"
 								href="${pageContext.request.contextPath}/admin/vieworder">
 								<div class="right__cardTitle">Đơn Hàng</div>
-								<!-- <div class="right__cardNumber">${countOrder.size()}</div> -->
+								
 								<div class="right__cardDesc">
 									Xem Chi Tiết <img
 										src="${pageContext.request.contextPath}/assets/arrow-right.svg"

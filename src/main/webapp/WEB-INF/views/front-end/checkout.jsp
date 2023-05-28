@@ -45,7 +45,7 @@
 				<h3>Thông tin giao hàng</h3>
 				<form:input type="text" path = "customerName" name="name" class="text" placeholder="Họ và tên" required="required" />
 				<form:input type="text" path = "customerEmail" name="Email" class="text" placeholder="Email" required="required"/> 
-				<form:input type="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" path ="customerPhone" name="telephone_number" class="text" placeholder="1234-456-678" required="required"/> </br> 
+				<form:input type="tel" pattern="[0-9]{10}" path ="customerPhone" name="telephone_number" class="text" placeholder="1234-456-678" required="required"/> </br> 
 				<form:input type="text" path = "customerAddress" name="adress" class="text" placeholder="Địa chỉ" required="required"/>
 				<input type="submit" value="XÁC NHẬN" id="btn-send"> </br> <span> </span>
 			</form:form>
